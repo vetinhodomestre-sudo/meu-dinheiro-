@@ -1,12 +1,15 @@
 {
-  "cli": {
-    "version": ">= 10.0.0"
-  },
-  "build": {
-    "preview": {
-      "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease"
+  "expo": {
+    "name": "Meu Dinheiro",
+    "slug": "meudinheiro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.meudinheiro.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1addc3d3-2021-4cfd-94b6-6bea398a3b61"
       }
     }
   }
